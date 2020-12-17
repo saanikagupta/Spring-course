@@ -1,0 +1,36 @@
+package com.my_codes.hibernate.demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.my_codes.hibernate.demo.entity.Student;
+
+public class ReadStudentDemo {
+
+	public static void main(String[] args) {
+		
+		SessionFactory factory = new Configuration()
+								 .configure("hibernate.cfg.xml")
+								 .addAnnotatedClass(Student.class)
+								 .buildSessionFactory();		
+		try {
+			System.out.println("Creating a new student object...");
+			Student tempStudent = new Student("Saanika", "Gupta", "guptasaanika@gmail.com");
+								
+			System.out.println("Generated id: " + tempStudent.getId());
+			
+			Session session = factory.getCurrentSession();
+			session.beginTransaction();
+			
+			Student myStudent = session.get(Student.class, tempStudent.getId());
+			System.out.println(myStudent);
+			session.getTransaction().commit();
+			System.out.println("Done!");
+		}
+		finally {
+			factory.close();
+		}
+	}
+
+}

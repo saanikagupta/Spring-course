@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\asus\Desktop\Amazon\Spring\my_codes\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
+\spring-mvc-demo\src
+C:\Users\asus\Desktop\Amazon\Spring\my_codes\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2307314002.index
+\solution-code-spring-mvc-reading-html-form-data\src

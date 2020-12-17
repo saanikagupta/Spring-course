@@ -1,0 +1,11 @@
+package com.my_codes.jdbc;
+
+public class Test_jdbc {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

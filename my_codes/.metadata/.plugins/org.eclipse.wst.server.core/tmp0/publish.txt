@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Nov 24 01:44:46 IST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\asus\\Desktop\\Amazon\\Spring\\my_codes\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\asus\\Desktop\\Amazon\\Spring\\my_codes\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar
